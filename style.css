@@ -60,3 +60,36 @@
   transform-origin: bottom;
   border-radius: 2rem;
 }
+
+@media (max-width: 800px) {
+  .content {
+    height: 70vw;
+    width: 70vw;
+    position: relative;
+  }
+  #hour {
+    position: absolute;
+    height: 7vh;
+    width: 2.5vw;
+    top: 21vw;
+    left: 32.5vw;
+    
+  }
+  #menuts {
+    position: absolute;
+    height: 8vh;
+    width: 2vw;
+    top: 19vw;
+    left: 32.5vw;
+    
+    
+  }
+  #second {
+    position: absolute;
+    height: 9vh;
+    width: 2vw;
+    top: 17vw;
+    left: 32.5vw;
+    
+  }
+}
